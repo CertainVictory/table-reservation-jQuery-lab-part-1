@@ -18,7 +18,7 @@ $(document).ready(function () {
 
             $(".form-overlay").hide();
             if ($(e.target).hasClass("selected")) {
-                $(e.target).removeClass("selected").addClass("reserved");
+                $(e.target).removeClass("selected").addClass("reserved").unbind();
                 $(".picker_container").removeClass("no-click");
             }
         })
