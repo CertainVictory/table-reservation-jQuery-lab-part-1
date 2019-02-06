@@ -3,6 +3,30 @@ html {
     /* font-family: Roboto Mono; */
 }
 
+
+/* .tooltip {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color:#adaaaa;
+    border: 2px solid;
+    border-radius: 5px;
+    color: white
+  } */
+
+  .tooltip {
+    position: absolute;
+    z-index: 999999999;
+    background-color: #adaaaa;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    height: 150;
+    left: 50%;
+    top: 50%;
+  }
+
+
 .container {
     display: flex;
     flex-direction: column;
@@ -53,7 +77,7 @@ header {
     border: 0px solid;
     font-family: Roboto Mono;
     font-weight:700;
-
+    position: relative;
 }
 
 .available {
